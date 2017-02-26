@@ -1,0 +1,174 @@
+/* --------------  Reset  -------------- */
+
+* {
+  padding: 0;
+	margin: 0;
+	border: 0 none;
+}
+
+img {
+  border-width: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* --------------  General  -------------- */
+
+body {
+  background-color: #ffffff;
+	background-image: url(../../assets/images/background.jpg);
+}
+
+div#page-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+div#header-image img {
+  width: 100%;
+}
+
+nav#main-nav ul#nav {
+  width: 100%;
+  margin: 2% 0;
+}
+
+nav#main-nav li.nav {
+  display: inline-block;
+  margin: 0 0.13%;
+}
+
+nav#main-nav li.nav:first-child {
+  margin-left: 0;
+}
+
+nav#main-nav li.nav:last-child {
+  margin-right: 0;
+}
+
+nav#main-nav img {
+  width: 100%;
+}
+
+div.content {
+	margin: 15px 0;
+  padding: 15px;
+	background-color: #ffffff;
+	color: #454545;
+}
+
+p {
+  margin-bottom: 15px;
+	font-family: Georgia, Helvetica, serif;
+  font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+h1 {
+  font-size: 14pt;
+	color: #DE2B2E;
+	margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 12pt;
+	color: #DE2B2E;
+	margin-top: 20px;
+}
+
+a:link {
+  color: #7D1316;
+}
+
+a:hover {
+  color: #6f6f6f;
+}
+
+a:active {
+  color: #EB7E82;
+}
+
+/* --------------  Live/Workshops -------------- */
+
+nav#program-nav ul#nav {
+  width: 100%;
+}
+
+nav#program-nav a {
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7D1316;
+}
+
+nav#program-nav li.nav {
+  width: 24.52%;
+  height: 40px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+nav#program-nav li.nav:first-child {
+  margin-left: 0;
+}
+
+nav#program-nav li.nav:last-child {
+  margin-right: 0;
+}
+
+nav#program-nav li.nav:hover,
+nav#program-nav li.active {
+  color: #DE2B2E;
+}
+
+/* --------------  Papers -------------- */
+
+div#text-overview {
+	margin: 15px 0;
+    padding: 15px;
+	background-color: #ffffff;
+	color: #454545;
+}
+
+div#text-overview li {
+	list-style: none;
+	font-family: Georgia, Helvetica, serif;
+	margin: 10px;
+}
+
+/* --------------  Links -------------- */
+
+
+/* --------------  Archive -------------- */
+
+
+/* --------------  Queries -------------- */
+@media (min-width: 751px) {
+  nav#main-nav li.nav {
+    width: 16%;
+  }
+
+}
+
+@media (max-width: 751px) {
+  nav#main-nav li.nav {
+    width: 15.91%;
+  }
+}
+
+@media (max-width: 640px) {
+  nav#main-nav li.nav {
+    width: 15.74%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav#main-nav li.nav {
+    width: 15.62%;
+  }
+}
