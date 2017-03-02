@@ -168,15 +168,15 @@ nav#program-nav li.active {
 }
 
 div#bgimage-aemsel{
-	background: url('/assets/images/aemsel.jpg');
+	background: url(../../assets/images/live/aemsel.jpg);
 }
 
 div#bgimage-contorture{
-	background: url('/assets/images/contorture.jpg');
+	background: url(../../assets/images/live/contorture.jpg);
 }
 
 div#bgimage-drikke{
-	background: url('/assets/images/drikke.jpg');
+	background: url(../../assets/images/live/drikke.jpg);
 }
 
 /* --------------  Papers -------------- */
