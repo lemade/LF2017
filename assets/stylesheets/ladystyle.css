@@ -126,6 +126,59 @@ nav#program-nav li.active {
   color: #DE2B2E;
 }
 
+/*--------------- Live(stylevorschlag)---*/
+
+.live li {
+	list-style:none;
+	height: 154px;
+	width: 600px;
+	margin: 10px;
+}
+
+.live div {
+	height: 154px;
+	width: 600px;
+}
+
+.live h2 {
+	margin: 5px 0px;
+	padding: 3px 0 0 0;
+	font-style: bold;
+	font-family: helvetica, sans-serif;
+	font-size: 3em;
+	color:white;
+	text-align: center;
+}
+
+.live p {
+	margin: 5px 0px;
+	font-style: bold;
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+	color:white;
+	text-align: center;
+}
+
+.live a {
+	color:white;
+}
+
+.live a:hover {
+	color: #13C4F5;
+}
+
+div#bgimage-aemsel{
+	background: url('/assets/images/aemsel.jpg');
+}
+
+div#bgimage-contorture{
+	background: url('/assets/images/contorture.jpg');
+}
+
+div#bgimage-drikke{
+	background: url('/assets/images/drikke.jpg');
+}
+
 /* --------------  Papers -------------- */
 
 div#text-overview {
