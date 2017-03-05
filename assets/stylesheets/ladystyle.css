@@ -145,30 +145,33 @@ nav#program-nav li.active {
 }
 
 /*--------------- Live(stylevorschlag)---*/
+ul.live {
+  margin: 40px 0 0;
+}
 
-.live li {
+ul.live li {
 	list-style:none;
 	height: 154px;
-	width: 600px;
-	margin: 10px;
+	width: 100%;
+	margin: 20px 0;
 }
 
-.live div {
+ul.live div {
 	height: 154px;
 	width: 600px;
 }
 
-.live h2 {
+ul.live h2 {
 	margin: 5px 0px;
 	padding: 3px 0 0 0;
-	font-style: bold;
+	font-weight: bold;
 	font-family: helvetica, sans-serif;
 	font-size: 3em;
 	color:white;
 	text-align: center;
 }
 
-.live p {
+ul.live p {
 	margin: 5px 0px;
 	font-style: bold;
 	font-family: helvetica, sans-serif;
@@ -177,24 +180,70 @@ nav#program-nav li.active {
 	text-align: center;
 }
 
-.live a {
-	color:white;
-}
 
-.live a:hover {
+ul.live div.live-act:hover h2,
+ul.live div.live-act:hover p {
 	color: #13C4F5;
 }
 
-div#bgimage-aemsel{
-	background: url(../../assets/images/live/aemsel.jpg);
+ul.live div.live-act {
+  width: 100%;
+}
+
+div#bgimage-ryf{
+	background: url(../../assets/images/live/thursday/ryf.jpg) no-repeat center;
+}
+
+div#bgimage-zdrada{
+	background: url(../../assets/images/live/friday/zdrada.jpg) no-repeat center;
 }
 
 div#bgimage-contorture{
-	background: url(../../assets/images/live/contorture.jpg);
+	background: url(../../assets/images/live/friday/contorture.jpg) no-repeat center;
+}
+
+div#bgimage-vicious-irine{
+	background: url(../../assets/images/live/friday/vicious_irine.jpg) no-repeat center;
+}
+
+div#bgimage-saturnine{
+	background: url(../../assets/images/live/friday/saturnine.jpg) no-repeat center;
+}
+
+div#bgimage-aemsel{
+	background: url(../../assets/images/live/satureday/aemsel.jpg) no-repeat center;
+}
+
+div#bgimage-nachthexen{
+	background: url(../../assets/images/live/satureday/nachthexen.jpg) no-repeat center;
 }
 
 div#bgimage-drikke{
-	background: url(../../assets/images/live/drikke.jpg);
+	background: url(../../assets/images/live/satureday/drikke.jpg) no-repeat center;
+}
+
+div#bgimage-pripoy{
+	background: url(../../assets/images/live/satureday/pripoy.jpg) no-repeat center;
+}
+
+div#bgimage-pulsion{
+	background: url(../../assets/images/live/satureday/pulsion.jpg) no-repeat center;
+}
+
+div#bgimage-puncke{
+	background: url(../../assets/images/live/satureday/puncke.jpg) no-repeat center;
+}
+
+div#bgimage-womantis{
+	background: url(../../assets/images/live/satureday/womantis.jpg) no-repeat center;
+}
+
+div#bgimage-lepetka{
+	background: url(../../assets/images/live/sunday/lepetka.jpg) no-repeat center;
+}
+
+div#bgimage-wrackspurts{
+	background: url(../../assets/images/live/sunday/wrackspurts.jpg) no-repeat center;
 }
 
 /* --------------  Papers -------------- */
