@@ -287,7 +287,8 @@ nav#text-nav li {
 
 /* --------------  Queries -------------- */
 @media (min-width: 640px) {
-  nav#program-nav a {
+  nav#program-nav a,
+  nav#workshop-nav a {
     font-size: 16pt;
   }
 }
