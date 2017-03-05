@@ -33,12 +33,13 @@ div#header-image img {
 
 nav#main-nav ul#nav {
   width: 100%;
-  margin: 2% 0;
 }
 
 nav#main-nav li.nav {
-  display: inline-block;
-  margin: 0 0.13%;
+  float: left;
+  width: 15.5%;
+  width: calc(100%/6);
+  list-style: none;
 }
 
 nav#main-nav li.nav:first-child {
@@ -49,12 +50,19 @@ nav#main-nav li.nav:last-child {
   margin-right: 0;
 }
 
+nav#main-nav li.nav a {
+  display: block;
+  text-decoration: none;
+  padding: 2px;
+}
+
 nav#main-nav img {
   width: 100%;
 }
 
 main {
-  margin: 70px 0;
+  clear: left;
+  padding: 40px 0;
 }
 
 article {
@@ -98,19 +106,24 @@ a:hover {
 }
 
 /* --------------  Live/Workshops -------------- */
+nav#workshop-nav,
+nav#program-nav {
+  clear: left;
+}
 
 nav#workshop-nav ul#nav,
 nav#program-nav ul#nav {
-  margin: 40px 0;
+  padding: 40px 0;
   width: 100%;
+  overflow: hidden;
 }
 
 nav#workshop-nav a,
 nav#program-nav a {
+  display: block;
   line-height: 40px;
   text-align: center;
   vertical-align: middle;
-  font-size: 16pt;
 	font-family: Helvetica, Georgia, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -120,16 +133,19 @@ nav#program-nav a {
 
 nav#workshop-nav li.nav,
 nav#program-nav li.nav {
+  float: left;
   height: 40px;
   display: inline-block;
 }
 
 nav#workshop-nav li.nav {
-  width: 49%;
+  width: 49%; /* fallback for non-calc() browsers */
+  width: calc(100/2);
 }
 
 nav#program-nav li.nav {
-  width: 24%;
+  width: 24%; /* fallback for non-calc() browsers */
+  width: calc(100/4);
 }
 
 nav#program-nav li.nav:first-child {
@@ -147,7 +163,6 @@ nav#program-nav li.active {
   color: #13C4F5;
 }
 
-/*--------------- Live(stylevorschlag)---*/
 ul.live {
   margin: 40px 0 0;
 }
@@ -271,26 +286,15 @@ nav#text-nav li {
 
 
 /* --------------  Queries -------------- */
-@media (min-width: 751px) {
-  nav#main-nav li.nav {
-    width: 16%;
-  }
-}
-
-@media (max-width: 751px) {
-  nav#main-nav li.nav {
-    width: 15.91%;
+@media (min-width: 640px) {
+  nav#program-nav a {
+    font-size: 16pt;
   }
 }
 
 @media (max-width: 640px) {
-  nav#main-nav li.nav {
-    width: 15.74%;
-  }
-}
-
-@media (max-width: 480px) {
-  nav#main-nav li.nav {
-    width: 15.62%;
+  nav#program-nav li.nav {
+    width: 49%; /* fallback for non-calc() browsers */
+    width: calc(100/2);
   }
 }
