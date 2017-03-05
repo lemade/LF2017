@@ -17,13 +17,14 @@ a {
 /* --------------  General  -------------- */
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
 	background-image: url(../../assets/images/background.jpg);
 }
 
 div#page-wrapper {
   max-width: 780px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 div#header-image img {
@@ -52,53 +53,55 @@ nav#main-nav img {
   width: 100%;
 }
 
+main {
+  margin: 70px 0;
+}
+
 article {
-  padding: 0 15px;
-	background-color: #ffffff;
-	color: #454545;
+  padding: 0 30px;
+	color: #454;
 }
 
 p {
   margin-bottom: 15px;
-	font-family: Georgia, Helvetica, serif;
-  font-size: 1.1em;
-	line-height: 1.2em;
+	font-family: Georgia, Times, Times New Roman, Verdana, serif;
+  font-size: 1.2em;
+	line-height: 1.4em;
 }
 
 h1 {
 	margin: 40px 0 10px;
-  font-size: 16pt;
-	color: #DE2B2E;
+  font-size: 18pt;
+	font-family: Helvetica, Georgia, sans-serif;
+	color: #13C4F5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 h2 {
 	margin: 30px 0 10px;
   font-size: 14pt;
-	color: #454545;
-	font-family: Georgia, Helvetica, serif;
+	font-family: Georgia, Helvetica, sans-serif;
   font-weight: bold;
+	color: #454;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
 }
 
 a:link {
-  color: #7D1316;
+  color: #13C4F5;
 }
 
 a:hover {
-  color: #7D1316;
-}
-
-a:active {
-  color: #EB7E82;
-}
-
-a:visited {
-  color: #DE2B2E;
+  color: #0c7998;
 }
 
 /* --------------  Live/Workshops -------------- */
 
 nav#workshop-nav ul#nav,
 nav#program-nav ul#nav {
+  margin: 40px 0;
   width: 100%;
 }
 
@@ -107,18 +110,18 @@ nav#program-nav a {
   line-height: 40px;
   text-align: center;
   vertical-align: middle;
-  font-size: 14pt;
+  font-size: 16pt;
+	font-family: Helvetica, Georgia, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #7D1316;
+  letter-spacing: 1.5px;
+  color: #0c7998;
 }
 
 nav#workshop-nav li.nav,
 nav#program-nav li.nav {
-  width: 24.52%;
   height: 40px;
   display: inline-block;
-  background-color: #fff;
 }
 
 nav#workshop-nav li.nav {
@@ -126,7 +129,7 @@ nav#workshop-nav li.nav {
 }
 
 nav#program-nav li.nav {
-  width: 24.52%;
+  width: 24%;
 }
 
 nav#program-nav li.nav:first-child {
@@ -141,7 +144,7 @@ nav#workshop-nav li.nav:hover,
 nav#workshop-nav li.active,
 nav#program-nav li.nav:hover,
 nav#program-nav li.active {
-  color: #DE2B2E;
+  color: #13C4F5;
 }
 
 /*--------------- Live(stylevorschlag)---*/
@@ -165,9 +168,9 @@ ul.live h2 {
 	margin: 5px 0px;
 	padding: 3px 0 0 0;
 	font-weight: bold;
-	font-family: helvetica, sans-serif;
+	font-family: Helvetica, Georgia, sans-serif;
 	font-size: 3em;
-	color:white;
+	color: #fff;
 	text-align: center;
 }
 
@@ -176,7 +179,7 @@ ul.live p {
 	font-style: bold;
 	font-family: helvetica, sans-serif;
 	font-size: 1.5em;
-	color:white;
+	color: #fff;
 	text-align: center;
 }
 
@@ -251,8 +254,8 @@ div#bgimage-wrackspurts{
 nav#text-nav {
 	margin: 15px 0;
   padding: 15px;
-	background-color: #ffffff;
-	color: #454545;
+	background-color: #fff;
+	color: #454;
 }
 
 nav#text-nav li {
