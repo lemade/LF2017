@@ -264,6 +264,60 @@ div#bgimage-wrackspurts{
 	background: url(../../assets/images/live/sunday/wrackspurts.jpg) no-repeat center;
 }
 
+article div.workshop-head {
+	height: 50px;
+	width: 750px;
+}
+
+div.workshop-head h1 {
+  color: white;
+  margin-left: 10px;
+  padding: 0.5em;
+}
+
+div.workshop-head time {
+  color: white;
+  float: right;
+  margin-right: 10px;
+}
+
+article div.workshop-head:hover h1,
+article div.workshop-head:hover time {
+	color: #13C4F5;
+}
+
+div#bgimage-tattoows{
+	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat left;
+}
+
+div#bgimage-vulvaws{
+	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat left;
+}
+
+div#bgimage-computerws{
+	background: url(../../assets/images/workshop/friday/bgimage-computerws.jpg) no-repeat left;
+}
+
+div#bgimage-schweissws{
+	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat left;
+}
+
+div#bgimage-tanzws{
+	background: url(../../assets/images/workshop/friday/bgimage-tanzws.jpg) no-repeat left;
+}
+
+div#bgimage-sprechws{
+	background: url(../../assets/images/workshop/friday/bgimage-sprechws.jpg) no-repeat left;
+}
+
+div#bgimage-kritischeweiblichkeit{
+	background: url(../../assets/images/workshop/friday/bgimage-kritischeweiblichkeit.jpg) no-repeat left;
+}
+
+div#bgimage-theaterws{
+	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat left;
+}
+
 /* --------------  Papers -------------- */
 
 nav#text-nav {
