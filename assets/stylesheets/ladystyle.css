@@ -62,7 +62,7 @@ nav#main-nav img {
 
 main {
   clear: left;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 article {
@@ -170,23 +170,18 @@ nav#program-nav li.active {
 ul#ws-list,
 ul#live-list {
   margin: 40px 0 0;
+  padding: 0 30px;
 }
 
 ul#ws-list li,
 ul#live-list li {
-	margin: 20px 0;
+	margin: 40px 0;
 	list-style:none;
-	height: 154px;
 	width: 100%;
 }
 
-ul#ws-list li {
-  height: inherit;
-}
-
-div.live-head,
-div.ws-head {
-	height: 100%;
+div.live-head {
+  height: 154px;
 }
 
 div.live-head h1,
@@ -201,16 +196,13 @@ div.ws-head h1 {
 }
 
 div.ws-head h1 {
-  padding: 5px 25px;
+  margin: 0;
+  padding: 5px 10px;
   font-size: 1.8em;
   text-align: left;
 }
 
-article.ws-show div.ws-head h1,
-article.ws-show div.ws-head p {
-  padding: 5px 5px;
-}
-
+div.ws-head p,
 div.live-head p {
 	margin: 5px 0;
 	font-style: bold;
@@ -221,13 +213,16 @@ div.live-head p {
 }
 
 div.ws-head p {
-  margin: 5px 0;
-  padding: 0 25px;
-	font-style: bold;
-	font-family: helvetica, sans-serif;
+	margin: 0;
+  padding: 0 10px;
+	font-size: 1.2em;
 	font-size: 1.3em;
-	color: #fff;
   text-align: left;
+}
+
+div.ws-head span.place:before,
+div.ws-head span.author:before {
+  content: ' - '
 }
 
 ul#ws-list div.ws-head:hover h1,
@@ -311,32 +306,56 @@ div#bgimage-tattoows{
 	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat center;
 }
 
-div#bgimage-vulvaws{
-	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat center;
+div#bgimage-theaterws{
+	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat center;
 }
 
 div#bgimage-computerws{
 	background: url(../../assets/images/workshop/friday/bgimage-computerws.jpg) no-repeat center;
 }
 
-div#bgimage-schweissws{
-	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat center;
+div#bgimage-vulvaws{
+	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat center;
 }
 
 div#bgimage-tanzws{
 	background: url(../../assets/images/workshop/friday/bgimage-tanzws.jpg) no-repeat center;
 }
 
-div#bgimage-sprechws{
-	background: url(../../assets/images/workshop/friday/bgimage-sprechws.jpg) no-repeat center;
-}
-
 div#bgimage-kritischeweiblichkeit{
 	background: url(../../assets/images/workshop/friday/bgimage-kritischeweiblichkeit.jpg) no-repeat center;
 }
 
-div#bgimage-theaterws{
-	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat center;
+div#bgimage-sprechws{
+	background: url(../../assets/images/workshop/friday/bgimage-sprechws.jpg) no-repeat center;
+}
+
+div#bgimage-schweissws{
+	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat center;
+}
+
+div#bgimage-elternschaft{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
+
+div#bgimage-autows{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
+
+div#bgimage-spokenword{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
+
+div#bgimage-sextoys{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
+
+div#bgimage-bodyshaming{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
+
+div#bgimage-sanyal{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
 }
 
 /* --------------  Papers -------------- */
