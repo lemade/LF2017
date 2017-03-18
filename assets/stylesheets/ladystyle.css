@@ -105,6 +105,10 @@ a:hover {
   color: #0c7998;
 }
 
+span.i {
+  font-style: italic;
+}
+
 /* --------------  Live/Workshops -------------- */
 nav#workshop-nav,
 nav#program-nav {
@@ -163,23 +167,30 @@ nav#program-nav li.active {
   color: #13C4F5;
 }
 
-ul.live {
+ul#ws-list,
+ul#live-list {
   margin: 40px 0 0;
 }
 
-ul.live li {
+ul#ws-list li,
+ul#live-list li {
+	margin: 20px 0;
 	list-style:none;
 	height: 154px;
 	width: 100%;
-	margin: 20px 0;
 }
 
-ul.live div {
-	height: 154px;
-	width: 600px;
+ul#ws-list li {
+  height: inherit;
 }
 
-ul.live h2 {
+div.live-head,
+div.ws-head {
+	height: 100%;
+}
+
+div.live-head h1,
+div.ws-head h1 {
 	margin: 5px 0px;
 	padding: 3px 0 0 0;
 	font-weight: bold;
@@ -189,8 +200,19 @@ ul.live h2 {
 	text-align: center;
 }
 
-ul.live p {
-	margin: 5px 0px;
+div.ws-head h1 {
+  padding: 5px 25px;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+article.ws-show div.ws-head h1,
+article.ws-show div.ws-head p {
+  padding: 5px 5px;
+}
+
+div.live-head p {
+	margin: 5px 0;
 	font-style: bold;
 	font-family: helvetica, sans-serif;
 	font-size: 1.5em;
@@ -198,16 +220,35 @@ ul.live p {
 	text-align: center;
 }
 
+div.ws-head p {
+  margin: 5px 0;
+  padding: 0 25px;
+	font-style: bold;
+	font-family: helvetica, sans-serif;
+	font-size: 1.3em;
+	color: #fff;
+  text-align: left;
+}
 
-ul.live div.live-act:hover h2,
-ul.live div.live-act:hover p {
+ul#ws-list div.ws-head:hover h1,
+ul#ws-list div.ws-head:hover p,
+div.live-head:hover h1,
+div.live-head:hover p {
 	color: #13C4F5;
 }
 
-ul.live div.live-act {
-  width: 100%;
+p.teaser {
+  margin: 16px;
+  color: inherit;
+  font-style: inherit;
+  font-size: 1.2em;
 }
 
+article.ws-show div.ws-head {
+  margin-bottom: 20px;
+}
+
+/* live */
 div#bgimage-ryf{
 	background: url(../../assets/images/live/thursday/ryf.jpg) no-repeat center;
 }
@@ -264,58 +305,38 @@ div#bgimage-wrackspurts{
 	background: url(../../assets/images/live/sunday/wrackspurts.jpg) no-repeat center;
 }
 
-article div.workshop-head {
-	height: 50px;
-	width: 750px;
-}
-
-div.workshop-head h1 {
-  color: white;
-  margin-left: 10px;
-  padding: 0.5em;
-}
-
-div.workshop-head time {
-  color: white;
-  float: right;
-  margin-right: 10px;
-}
-
-article div.workshop-head:hover h1,
-article div.workshop-head:hover time {
-	color: #13C4F5;
-}
+/* workshops */
 
 div#bgimage-tattoows{
-	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat center;
 }
 
 div#bgimage-vulvaws{
-	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat center;
 }
 
 div#bgimage-computerws{
-	background: url(../../assets/images/workshop/friday/bgimage-computerws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-computerws.jpg) no-repeat center;
 }
 
 div#bgimage-schweissws{
-	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat center;
 }
 
 div#bgimage-tanzws{
-	background: url(../../assets/images/workshop/friday/bgimage-tanzws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-tanzws.jpg) no-repeat center;
 }
 
 div#bgimage-sprechws{
-	background: url(../../assets/images/workshop/friday/bgimage-sprechws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-sprechws.jpg) no-repeat center;
 }
 
 div#bgimage-kritischeweiblichkeit{
-	background: url(../../assets/images/workshop/friday/bgimage-kritischeweiblichkeit.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-kritischeweiblichkeit.jpg) no-repeat center;
 }
 
 div#bgimage-theaterws{
-	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat left;
+	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat center;
 }
 
 /* --------------  Papers -------------- */
