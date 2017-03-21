@@ -143,8 +143,8 @@ nav#program-nav li.nav {
 }
 
 nav#workshop-nav li.nav {
-  width: 49%; /* fallback for non-calc() browsers */
-  width: calc(100/2);
+  width: 33%; /* fallback for non-calc() browsers */
+  width: calc(100/3);
 }
 
 nav#program-nav li.nav {
@@ -301,6 +301,10 @@ div#bgimage-wrackspurts{
 }
 
 /* workshops */
+
+div#bgimage-transws{
+	background: url(../../assets/images/workshop/satureday/bgimage-example.jpg) no-repeat center;
+}
 
 div#bgimage-tattoows{
 	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat center;
