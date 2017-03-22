@@ -244,7 +244,6 @@ div.live-head p {
 div.ws-head p {
 	margin: 0;
   padding: 0 10px;
-	font-size: 1.2em;
 	font-size: 1.3em;
   text-align: left;
 }
@@ -406,7 +405,17 @@ nav#text-nav li {
 }
 
 /* --------------  Links -------------- */
+h2.links a,
+ul.links li a {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #454;
+}
 
+h2.links a:hover,
+ul.links li a:hover {
+  color: #13C4F5;
+}
 
 /* --------------  Archive -------------- */
 
