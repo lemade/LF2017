@@ -54,7 +54,8 @@ main {
 article {
   padding: 0 30px;
 	color: #454;
-  display: inline-table;
+  display: inline-block;
+  width: 720px;
 }
 
 p {
@@ -285,7 +286,7 @@ div.live-head p {
 div.ws-head p {
 	margin: 0;
   padding: 0 10px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: left;
 }
 
