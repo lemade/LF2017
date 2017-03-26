@@ -220,6 +220,10 @@ nav#program-nav li.active {
   nav#workshop-nav a {
     font-size: 16pt;
   }
+
+  article {
+    min-width: 720px;
+  }
 }
 
 @media (max-width: 640px) {
