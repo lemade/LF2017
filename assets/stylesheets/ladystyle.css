@@ -55,7 +55,7 @@ article {
   padding: 0 30px;
 	color: #454;
   display: inline-block;
-  width: 720px;
+  max-width: 720px;
 }
 
 p {
