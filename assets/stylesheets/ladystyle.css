@@ -290,7 +290,10 @@ div.ws-head p {
   text-align: left;
 }
 
-div.ws-head span.place:before,
+div.ws-head span.place:before {
+  content: ' @ '
+}
+
 div.ws-head span.author:before {
   content: ' - '
 }
@@ -381,33 +384,36 @@ div#bgimage-wrackspurts{
 }
 
 /* workshops */
+div#bgimage-express{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
 
 div#bgimage-transws{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
 div#bgimage-tattoows{
-	background: url(../../assets/images/workshop/friday/bgimage-tattoows.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-tattoows.jpg) no-repeat center;
 }
 
 div#bgimage-theaterws{
-	background: url(../../assets/images/workshop/friday/bgimage-theaterws.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-theaterws.jpg) no-repeat center;
 }
 
 div#bgimage-computerws{
-	background: url(../../assets/images/workshop/friday/bgimage-computerws.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-computerws.jpg) no-repeat center;
 }
 
 div#bgimage-vulvaws{
-	background: url(../../assets/images/workshop/friday/bgimage-vulvaws.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-vulvaws.jpg) no-repeat center;
 }
 
 div#bgimage-tanzws{
-	background: url(../../assets/images/workshop/friday/bgimage-tanzws.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-tanzws.jpg) no-repeat center;
 }
 
 div#bgimage-kritischeweiblichkeit{
-	background: url(../../assets/images/workshop/friday/bgimage-kritischeweiblichkeit.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-kritischeweiblichkeit.jpg) no-repeat center;
 }
 
 div#bgimage-sprechws{
@@ -415,14 +421,14 @@ div#bgimage-sprechws{
 }
 
 div#bgimage-schweissws{
-	background: url(../../assets/images/workshop/friday/bgimage-schweissws.jpg) no-repeat center;
+	background: url(../../assets/images/workshop/bgimage-schweissws.jpg) no-repeat center;
 }
 
 div#bgimage-elternschaft{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
-div#bgimage-autows{
+div#bgimage-rubberband{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
