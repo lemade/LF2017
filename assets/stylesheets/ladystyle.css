@@ -258,17 +258,39 @@ ul#live-list li {
 }
 
 div.live-head {
-  height: 154px;
+  min-height: 154px;
 }
 
 div.live-head h1,
+div.live-head ul.djanes li a,
 div.ws-head h1 {
-	margin: 5px 0px;
+	margin: 5px 0;
 	padding: 3px 0 0 0;
 	font-weight: bold;
 	font-family: Helvetica, Georgia, sans-serif;
 	color: #fff;
 	text-align: center;
+}
+
+div#bgimage-djmixer,
+div#bgimage-djrecord {
+  min-height: 320px;
+}
+
+div.live-head ul.djanes li {
+  margin: 10px 0 !important;
+  font-size: 1.35em;
+	text-align: center;
+}
+
+div.live-head ul.djanes li h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+div.live-head ul.djanes li p {
+  font-size: 1em;
 }
 
 div.live-head h1 {
@@ -309,7 +331,9 @@ div.ws-head span.author:before {
 ul#ws-list div.ws-head:hover h1,
 ul#ws-list div.ws-head:hover p,
 div.live-head:hover h1,
-div.live-head:hover p {
+div.live-head:hover p,
+div.live-head ul.djanes li:hover h2,
+div.live-head ul.djanes li:hover span {
 	color: #13C4F5;
 }
 
@@ -357,6 +381,14 @@ div#bgimage-saturnine{
 
 div#bgimage-carmel{
 	background: url(../../assets/images/live/friday/carmel_zoum.jpg) no-repeat center;
+}
+
+div#bgimage-djmixer{
+	background: url(../../assets/images/live/friday/DJmixer.jpg) repeat-y center;
+}
+
+div#bgimage-djrecord{
+	background: url(../../assets/images/live/satureday/DJrecord.jpg) repeat-y center;
 }
 
 div#bgimage-aemsel{
@@ -415,6 +447,14 @@ div#bgimage-theaterws{
 	background: url(../../assets/images/workshop/bgimage-theaterws.jpg) no-repeat center;
 }
 
+div#bgimage-toys{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
+
+div#bgimage-lkw{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
+
 div#bgimage-computerws{
 	background: url(../../assets/images/workshop/bgimage-computerws.jpg) no-repeat center;
 }
@@ -429,6 +469,14 @@ div#bgimage-tanzws{
 
 div#bgimage-kritischeweiblichkeit{
 	background: url(../../assets/images/workshop/bgimage-kritischeweiblichkeit.jpg) no-repeat center;
+}
+
+div#bgimage-autows{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
+
+div#bgimage-transmisogynie{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
 div#bgimage-sprechws{
@@ -448,10 +496,6 @@ div#bgimage-rubberband{
 }
 
 div#bgimage-spokenword{
-	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
-}
-
-div#bgimage-sextoys{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
