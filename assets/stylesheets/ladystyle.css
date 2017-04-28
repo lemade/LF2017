@@ -239,6 +239,10 @@ nav#program-nav li.active {
 }
 
 /* --------------  Live/Workshops -------------- */
+p.live-info, p.ws-info {
+  text-align: center;
+  font-style: italic;
+}
 
 ul#ws-list,
 ul#live-list {
@@ -383,6 +387,9 @@ div#bgimage-womantis{
 	background: url(../../assets/images/live/satureday/womantis.jpg) no-repeat center;
 }
 
+div#bgimage-hausfrau{
+	background: url(../../assets/images/live/satureday/hausfrau.jpg) no-repeat center;
+}
 div#bgimage-lepetka{
 	background: url(../../assets/images/live/sunday/lepetka.jpg) no-repeat center;
 }
