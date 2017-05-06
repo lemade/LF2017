@@ -266,7 +266,6 @@ div.live-head ul.djanes li a,
 div.ws-head h1 {
 	margin: 5px 0;
 	padding: 3px 0 0 0;
-	font-weight: bold;
 	font-family: Helvetica, Georgia, sans-serif;
 	color: #fff;
 	text-align: center;
@@ -479,6 +478,9 @@ div#bgimage-transmisogynie{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
 
+div#bgimage-slackline{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
 div#bgimage-sprechws{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
