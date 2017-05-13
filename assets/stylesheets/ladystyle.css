@@ -430,6 +430,10 @@ div#bgimage-wrackspurts{
 }
 
 /* workshops */
+div#bgimage-openspace{
+	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
+
 div#bgimage-express{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
 }
@@ -507,6 +511,10 @@ div#bgimage-bodyshaming{
 
 div#bgimage-sanyal{
 	background: url(../../assets/images/workshop/example.jpg) no-repeat center;
+}
+
+div#bgimage-film{
+	background: url(../../assets/images/workshop/bgimage-film.jpg) no-repeat center;
 }
 
 /* --------------  Papers -------------- */
